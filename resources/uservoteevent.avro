@@ -1,0 +1,10 @@
+{
+"namespace": "example.avro",
+"type": "record",
+"name": "UserVoteEvent",
+"fields": [
+	{"name": "billId", "type": "string"},
+	{"name": "userId", "type": "string"},
+	{"name": "vote", "type": "boolean"}
+]
+}
